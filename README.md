@@ -1,3 +1,4 @@
+### 基础操作
 - `git init` 初始化一个git仓库
 - `git status` 查看文件状态
 - `git add <file>` 添加文件到版本控制
@@ -24,7 +25,7 @@
 - `git merge --no-ff -m "merge with no-ff" dev`生成commit方式合并分支
 - `git branch -D <name>` 丢弃name分支
 
-## 保存工作区
+### 保存工作区
 - `git stash`保存工作区内容
 - `git stash list` 列举保存的工作区
 - `git stash apply` 恢复stash保存的工作区
