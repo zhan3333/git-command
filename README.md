@@ -24,6 +24,7 @@
 - `git log --graph` 查看分支合并图
 - `git merge --no-ff -m "merge with no-ff" dev`生成commit方式合并分支
 - `git branch -D <name>` 丢弃name分支
+- `git push origin :dev`删除远程仓库分支
 
 ### 保存工作区
 - `git stash`保存工作区内容
